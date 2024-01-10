@@ -1,5 +1,5 @@
 ssm@SSM-UnityDev01:~$ sudo docker run -d registry.house3d.net/metacity/landingpage:v1.0
-sudo rm -rf app*
+sudo rm -rf ./app
 ssm@SSM-UnityDev01:~$ unzip app.zip -d ./app
 ssm@SSM-UnityDev01:~$ sudo docker ps
 CONTAINER ID   IMAGE                                            COMMAND                  CREATED         STATUS         PORTS      NAMES

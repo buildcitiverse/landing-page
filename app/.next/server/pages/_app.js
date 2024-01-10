@@ -108,7 +108,7 @@ function MyApp({
         content: "Citiverse"
       }, "title"), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         property: "og:description",
-        content: "The First Co-creation Citiverse Ecosystem"
+        content: "Decentralized Living Space Co-creation"
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "shortcut icon",
         href: "/Logo.png"
