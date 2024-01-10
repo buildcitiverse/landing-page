@@ -1,0 +1,17 @@
+# Old default storage locations:
+/task-logs/
+/flamenco-storage/
+
+__pycache__
+*.pyc
+.mypy_cache/
+.openapi-generator/
+.hugo_build.lock
+.openapi-generator-*.log
+
+
+# IDE related stuff
+*.DS_Store
+.vscode/settings.json
+.vscode/launch.json
+.idea

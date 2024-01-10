@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/academy/detail": "pages/academy/detail.html",
+  "/academy": "pages/academy.html",
+  "/api/[...path]": "pages/api/[...path].js",
+  "/api/users/login": "pages/api/users/login.js",
+  "/api/users/logout": "pages/api/users/logout.js",
+  "/counter": "pages/counter.html",
+  "/event/tokenslot": "pages/event/tokenslot.html",
+  "/": "pages/index.html",
+  "/news/detail": "pages/news/detail.html",
+  "/news": "pages/news.html",
+  "/portal": "pages/portal.html",
+  "/404": "pages/404.html"
+}
