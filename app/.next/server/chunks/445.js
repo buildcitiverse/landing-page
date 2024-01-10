@@ -213,7 +213,7 @@ const MainLayout = ({
           src: "/meta_logo.png"
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx("p", {
           className: "Caption_2",
-          children: "Copyright \xA9 2022 Metacity"
+          children: "Copyright \xA9 2024 Citiverse"
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
         className: "footerRight",
@@ -224,7 +224,7 @@ const MainLayout = ({
             children: "Join Newsletter"
           }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx("p", {
             className: "Caption join_content",
-            children: "By subscribing to the Metacity Newsletter you are agreeing to receive newsletters and accepting the data privacy statement"
+            children: "By subscribing to the Citiverse Newsletter you are agreeing to receive newsletters and accepting the data privacy statement"
           }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx(_shared_ElementsBase__WEBPACK_IMPORTED_MODULE_3__/* .SingleInput */ .Ho, {
             errorMessage: messError,
             mode: "dark",

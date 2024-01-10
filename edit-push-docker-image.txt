@@ -1,0 +1,26 @@
+ssm@SSM-UnityDev01:~$ sudo docker run -d registry.house3d.net/metacity/landingpage:v1.0
+sudo rm -rf app*
+ssm@SSM-UnityDev01:~$ unzip app.zip -d ./app
+ssm@SSM-UnityDev01:~$ sudo docker ps
+CONTAINER ID   IMAGE                                            COMMAND                  CREATED         STATUS         PORTS      NAMES
+e83b0c3a73d3   registry.house3d.net/metacity/landingpage:v1.0   "docker-entrypoint.s…"   5 minutes ago   Up 5 minutes   3000/tcp   eloquent_meninsky
+ssm@SSM-UnityDev01:~$ sudo docker cp ./app/app e83b0c3a73d3:/
+Successfully copied 42.9MB to e83b0c3a73d3:/
+ssm@SSM-UnityDev01:~$ sudo docker container stop e83b0c3a73d3
+e83b0c3a73d3
+ssm@SSM-UnityDev01:~$ sudo docker commit e83b0c3a73d3 registry.house3d.net/metacity/landingpage:v2.0
+sha256:01e8b4eb2b1e20e3f94faf78bb4cb82c8f649069f1d006501fb403ea39bc2667
+ssm@SSM-UnityDev01:~$ sudo docker push registry.house3d.net/metacity/landingpage:v2.0
+The push refers to repository [registry.house3d.net/metacity/landingpage]
+f29bfb028f92: Pushed
+f1b79e238c4c: Layer already exists
+ec860f0bddc4: Layer already exists
+4fded75390c3: Layer already exists
+0438a22e5ac6: Layer already exists
+7f818325b2d2: Layer already exists
+a79681b2645a: Layer already exists
+f506bc026271: Layer already exists
+11816ca779c7: Layer already exists
+994393dc58e7: Layer already exists
+v2.0: digest: sha256:6cb22f1d2c9d1e2212a67c1e9c57c1f82907ab640a3e699394f6f93456607a9c size: 2416
+ssm@SSM-UnityDev01:~$

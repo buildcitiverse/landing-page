@@ -102,13 +102,13 @@ function MyApp({
     store: store,
     children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)((head_default()), {
       children: [/*#__PURE__*/jsx_runtime_.jsx("title", {
-        children: "Metacity"
+        children: "Citiverse"
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         property: "og:title",
-        content: "Metacity"
+        content: "Citiverse"
       }, "title"), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         property: "og:description",
-        content: "The First Build2Earn Citiverse Ecosystem"
+        content: "The First Co-creation Citiverse Ecosystem"
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "shortcut icon",
         href: "/Logo.png"
